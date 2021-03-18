@@ -6,6 +6,12 @@
 \usage{
 blbsigma(fit)
 }
+\arguments{
+\item{fit}{fitted regression}
+}
+\value{
+estimated standard deviation of the fitted model
+}
 \description{
 compute sigma from fit
 }

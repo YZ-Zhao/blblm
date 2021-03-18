@@ -1,18 +1,25 @@
 Package: blblm
 Type: Package
-Title: What the Package Does (Title Case)
+Title: bootstrap for linear regression model
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Yizhou Zhao
+Maintainer: The package maintainer <mrzhao@ucdavis.edu>
+Description: "blblm" is bag of little bootstraps for linear regression model. 
+            It is a procedure which incorporates features of both the bootstrap and subsampling to yield a robust, 
+            computationally efficient means of assessing the quality of estimators (based on linear regression model).
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
-    testthat (>= 2.1.0)
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown,
+    tidyverse
 Imports: 
     purrr,
+    furrr,
+    future,
     magrittr
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.1
+VignetteBuilder: knitr

@@ -1,4 +1,5 @@
 library(testthat)
 library(blblm)
-
+library(furrr)
+library(parallel)
 test_check("blblm")

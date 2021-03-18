@@ -2,10 +2,19 @@
 % Please edit documentation in R/blblm.R
 \name{lm_each_subsample}
 \alias{lm_each_subsample}
-\title{compute the estimates}
+\title{Linear regression modeling based on one subsample}
 \usage{
 lm_each_subsample(formula, data, n, B)
 }
+\arguments{
+\item{formula}{A symbolic description of the model}
+
+\item{data}{dataframe}
+
+\item{n}{sample size}
+
+\item{B}{integer, bootstrap iteration times}
+}
 \description{
-compute the estimates
+Linear regression modeling based on one subsample
 }
